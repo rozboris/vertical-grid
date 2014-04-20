@@ -1,0 +1,69 @@
+/**
+ * Vertical Grid CSS
+ * Created by @rozboris in 2014
+ * Inspired by Gridpak (http://gridpak.com, @erskinedesign)
+ */
+
+@num_columns: 12;
+@num_rows: 12;
+@padding: 0 0%;
+@gutter_pc: 0.3%;
+@prefix: vg;
+
+.mixin-grid-item(@gutter_pc){
+  margin-left:@gutter_pc;
+  margin-top:@gutter_pc;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing:border-box;
+  position: relative;
+  padding:0 0;
+}
+
+.mixin-grid-col(@num, @gutter_pc, @padding, @num_columns) {
+  @one_col: (100% - (@gutter_pc * (@num_columns - 1))) / @num_columns;
+  width:(@one_col * @num) + (@gutter_pc * (@num - 1));
+  .mixin-grid-item(@gutter_pc);
+}
+
+.mixin-grid-row(@num, @gutter_pc, @padding, @num_rows) {
+  @one_row: (100% - (@gutter_pc * (@num_rows - 1))) / @num_rows;
+  height:(@one_row * @num) + (@gutter_pc * (@num - 1));
+  .mixin-grid-item(@gutter_pc);
+}
+
+.generate-columns(@n, @i: 1) when (@i =< @n) {
+  .@{prefix}-column-@{i} {
+    .mixin-grid-col(@i, @gutter_pc, @padding, @num_columns);
+  }
+  .generate-columns(@n, (@i + 1));
+}
+
+.generate-rows(@n, @i: 1) when (@i =< @n) {
+  .@{prefix}-row-@{i} {
+    .mixin-grid-row(@i, @gutter_pc, @padding, @num_rows);
+  }
+  .generate-rows(@n, (@i + 1));
+}
+
+.@{prefix}-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 0;/*Fixing the space between inline-blocks bug :(*/
+}
+
+.generate-rows(@num_rows);
+
+.generate-columns(@num_rows);
+
+.@{prefix}-first-column{
+  margin-left:0;
+}
+
+.@{prefix}-first-row{
+  margin-top:0;
+}
+
+
+
