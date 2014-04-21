@@ -4,7 +4,7 @@
  * Inspired by Gridpak (http://gridpak.com, @erskinedesign)
  */
 .vg-container {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   font-size: 0;
@@ -255,4 +255,9 @@
 }
 .vg-first-row {
   margin-top: 0;
+}
+.vg-body-fullscreen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
