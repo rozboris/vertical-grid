@@ -12,7 +12,7 @@
 
 .mixin-grid-item(@gutter_pc){
   margin-left:@gutter_pc;
-  margin-top:@gutter_pc;
+  margin-top:unit(@gutter_pc, vh);
   display: inline-block;
   vertical-align: top;
   box-sizing:border-box;
@@ -64,6 +64,3 @@
 .@{prefix}-first-row{
   margin-top:0;
 }
-
-
-
