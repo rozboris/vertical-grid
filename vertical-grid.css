@@ -19,6 +19,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-row-2 {
   height: 16.41666667%;
@@ -29,6 +30,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-row-3 {
   height: 24.775%;
@@ -39,6 +41,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-row-4 {
   height: 33.13333333%;
@@ -49,6 +52,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-row-5 {
   height: 41.49166667%;
@@ -59,6 +63,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-row-6 {
   height: 49.85%;
@@ -69,6 +74,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-row-7 {
   height: 58.20833333%;
@@ -79,6 +85,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-row-8 {
   height: 66.56666667%;
@@ -89,6 +96,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-row-9 {
   height: 74.925%;
@@ -99,6 +107,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-row-10 {
   height: 83.28333333%;
@@ -109,6 +118,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-row-11 {
   height: 91.64166667%;
@@ -119,6 +129,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-row-12 {
   height: 100%;
@@ -129,6 +140,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-column-1 {
   width: 8.05833333%;
@@ -139,6 +151,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-column-2 {
   width: 16.41666667%;
@@ -149,6 +162,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-column-3 {
   width: 24.775%;
@@ -159,6 +173,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-column-4 {
   width: 33.13333333%;
@@ -169,6 +184,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-column-5 {
   width: 41.49166667%;
@@ -179,6 +195,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-column-6 {
   width: 49.85%;
@@ -189,6 +206,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-column-7 {
   width: 58.20833333%;
@@ -199,6 +217,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-column-8 {
   width: 66.56666667%;
@@ -209,6 +228,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-column-9 {
   width: 74.925%;
@@ -219,6 +239,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-column-10 {
   width: 83.28333333%;
@@ -229,6 +250,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-column-11 {
   width: 91.64166667%;
@@ -239,6 +261,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-column-12 {
   width: 100%;
@@ -249,6 +272,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 0;
+  font-size: medium;
 }
 .vg-first-column {
   margin-left: 0;
